@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2E734777FE5CD950FB4545D5 /* libPods-SequizTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0B3E569387F8A469ED2A18 /* libPods-SequizTests.a */; };
 		31889AD225758903F73C1CB9 /* libPods-SequizUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BDB88553347DA60B41742B /* libPods-SequizUITests.a */; };
-		551E3AA52B35D02C0044C4EF /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551E3AA42B35D02C0044C4EF /* CustomCollectionViewCell.swift */; };
 		558A16282B335E5200E64866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A16272B335E5200E64866 /* AppDelegate.swift */; };
 		558A162A2B335E5200E64866 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A16292B335E5200E64866 /* SceneDelegate.swift */; };
 		558A162C2B335E5200E64866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A162B2B335E5200E64866 /* ViewController.swift */; };
@@ -18,6 +17,7 @@
 		558A163F2B335E5500E64866 /* SequizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A163E2B335E5500E64866 /* SequizTests.swift */; };
 		558A16492B335E5500E64866 /* SequizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A16482B335E5500E64866 /* SequizUITests.swift */; };
 		558A164B2B335E5500E64866 /* SequizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A164A2B335E5500E64866 /* SequizUITestsLaunchTests.swift */; };
+		55A6366E2B38A3F0007DB206 /* CustomButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A6366D2B38A3F0007DB206 /* CustomButtonCollectionViewCell.swift */; };
 		6EBE53AD70AFCDD205A91544 /* libPods-Sequiz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 537522008B4FE0769244F99D /* libPods-Sequiz.a */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +44,6 @@
 		47BDB88553347DA60B41742B /* libPods-SequizUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SequizUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		537522008B4FE0769244F99D /* libPods-Sequiz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sequiz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53D04BEA809C4DE8CBB3C1FB /* Pods-SequizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SequizUITests.release.xcconfig"; path = "Target Support Files/Pods-SequizUITests/Pods-SequizUITests.release.xcconfig"; sourceTree = "<group>"; };
-		551E3AA42B35D02C0044C4EF /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		558A16242B335E5200E64866 /* Sequiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sequiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		558A16272B335E5200E64866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		558A16292B335E5200E64866 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +56,7 @@
 		558A16442B335E5500E64866 /* SequizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SequizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		558A16482B335E5500E64866 /* SequizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequizUITests.swift; sourceTree = "<group>"; };
 		558A164A2B335E5500E64866 /* SequizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55A6366D2B38A3F0007DB206 /* CustomButtonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonCollectionViewCell.swift; sourceTree = "<group>"; };
 		6E6B3F9DD5A4FD4542698B79 /* Pods-Sequiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sequiz.debug.xcconfig"; path = "Target Support Files/Pods-Sequiz/Pods-Sequiz.debug.xcconfig"; sourceTree = "<group>"; };
 		B4B0577FFA59445F6EBB7F87 /* Pods-SequizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SequizUITests.debug.xcconfig"; path = "Target Support Files/Pods-SequizUITests/Pods-SequizUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D9E660BC0E6FD247AF0A48B8 /* Pods-SequizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SequizTests.debug.xcconfig"; path = "Target Support Files/Pods-SequizTests/Pods-SequizTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 				558A16272B335E5200E64866 /* AppDelegate.swift */,
 				558A16292B335E5200E64866 /* SceneDelegate.swift */,
 				558A162B2B335E5200E64866 /* ViewController.swift */,
-				551E3AA42B35D02C0044C4EF /* CustomCollectionViewCell.swift */,
+				55A6366D2B38A3F0007DB206 /* CustomButtonCollectionViewCell.swift */,
 				558A16302B335E5500E64866 /* Assets.xcassets */,
 				558A16322B335E5500E64866 /* LaunchScreen.storyboard */,
 				558A16352B335E5500E64866 /* Info.plist */,
@@ -369,10 +369,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A6366E2B38A3F0007DB206 /* CustomButtonCollectionViewCell.swift in Sources */,
 				558A162C2B335E5200E64866 /* ViewController.swift in Sources */,
 				558A16282B335E5200E64866 /* AppDelegate.swift in Sources */,
 				558A162A2B335E5200E64866 /* SceneDelegate.swift in Sources */,
-				551E3AA52B35D02C0044C4EF /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

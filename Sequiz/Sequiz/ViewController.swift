@@ -11,7 +11,13 @@ import SnapKit
 class ViewController: UIViewController {
 
     // MARK: - Properties
-    private var images: [UIImage] = []
+    private var images: [UIImage] = [ UIImage(named: "Friends")!,
+                                      UIImage(named: "Game of Thrones")!,
+                                      UIImage(named: "How I Met You Mother")!,
+                                      UIImage(named: "Lost")!,
+                                      UIImage(named: "PLL")!,
+                                      UIImage(named: "The Bear")!
+    ]
     
     // MARK: - UI Components
     private var titleLabel = UILabel()
@@ -20,7 +26,7 @@ class ViewController: UIViewController {
         layout.scrollDirection = .vertical
         
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        collectionView.register(CustomCollectionViewCell.self, forCellWithReuseIdentifier: CustomCollectionViewCell.identifier)
+        collectionView.register(CustomButtonCollectionViewCell.self, forCellWithReuseIdentifier: CustomButtonCollectionViewCell.identifier)
         collectionView.backgroundColor = .accent
                        
         collectionView.contentInset = .init(top: 40, left: 25, bottom: 20, right: 25)
@@ -32,28 +38,29 @@ class ViewController: UIViewController {
         return collectionView
     }()
     
-    
+    private let imgButton: UIButton = {
+        let btn = UIButton()
+        let image = UIImage(systemName: "questionmark")
+        btn.setImage(image, for: .normal)
+        
+        return btn
+    }()
+        
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         self.configureUI()
         
-        images.append(UIImage(named: "Friends")!)
-        images.append(UIImage(named: "Game of Thrones")!)
-        images.append(UIImage(named: "How I Met You Mother")!)
-        images.append(UIImage(named: "Lost")!)
-        images.append(UIImage(named: "PLL")!)
-        images.append(UIImage(named: "The Bear")!)
-        
+        setImage()
         
         self.collectionView.dataSource = self
         self.collectionView.delegate = self
         
     }
 
-
+    // MARK: - Functions
     private func configureUI() {
-        view.backgroundColor = .accent
+        self.view.backgroundColor = .accent
         
         self.view.addSubview(collectionView)
         collectionView.translatesAutoresizingMaskIntoConstraints = false
@@ -64,20 +71,32 @@ class ViewController: UIViewController {
             make.leading.equalTo(self.view.snp.leading).offset(0)
             make.trailing.equalTo(self.view.snp.trailing).offset(0)
         }
-        
+    }
+    
+    private func setImage() {
+        for image in images {
+            self.imgButton.setImage(image, for: .normal)
+        }
+    }
+    
+    @objc func buttonPressed() {
+        print("Botão pressionado")
     }
 
 }
 
+// MARK: - Extension UICollectionView
 extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CustomCollectionViewCell.identifier, for: indexPath) as? CustomCollectionViewCell 
-        else { return UICollectionViewCell() }
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CustomButtonCollectionViewCell.identifier, for: indexPath) as? CustomButtonCollectionViewCell
+        else { return CustomButtonCollectionViewCell() }
         
         let image = self.images[indexPath.row]
-        cell.configureImage(with: image)
+        let button = self.imgButton
+        cell.configureButton(with: button, image: image)
+        cell.imgButton.addTarget(self, action: #selector(self.buttonPressed), for: .touchUpInside)
         
         return cell
     }
