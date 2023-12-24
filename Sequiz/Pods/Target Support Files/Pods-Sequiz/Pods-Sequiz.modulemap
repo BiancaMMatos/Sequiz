@@ -1,0 +1,6 @@
+module Pods_Sequiz {
+  umbrella header "Pods-Sequiz-umbrella.h"
+
+  export *
+  module * { export * }
+}
