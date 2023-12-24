@@ -18,6 +18,7 @@
 		558A163F2B335E5500E64866 /* SequizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A163E2B335E5500E64866 /* SequizTests.swift */; };
 		558A16492B335E5500E64866 /* SequizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A16482B335E5500E64866 /* SequizUITests.swift */; };
 		558A164B2B335E5500E64866 /* SequizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A164A2B335E5500E64866 /* SequizUITestsLaunchTests.swift */; };
+		55E7C8302B387F5400FF2847 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7C82F2B387F5400FF2847 /* QuizViewController.swift */; };
 		6EBE53AD70AFCDD205A91544 /* libPods-Sequiz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 537522008B4FE0769244F99D /* libPods-Sequiz.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		558A16442B335E5500E64866 /* SequizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SequizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		558A16482B335E5500E64866 /* SequizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequizUITests.swift; sourceTree = "<group>"; };
 		558A164A2B335E5500E64866 /* SequizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55E7C82F2B387F5400FF2847 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		6E6B3F9DD5A4FD4542698B79 /* Pods-Sequiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sequiz.debug.xcconfig"; path = "Target Support Files/Pods-Sequiz/Pods-Sequiz.debug.xcconfig"; sourceTree = "<group>"; };
 		B4B0577FFA59445F6EBB7F87 /* Pods-SequizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SequizUITests.debug.xcconfig"; path = "Target Support Files/Pods-SequizUITests/Pods-SequizUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D9E660BC0E6FD247AF0A48B8 /* Pods-SequizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SequizTests.debug.xcconfig"; path = "Target Support Files/Pods-SequizTests/Pods-SequizTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,10 +131,10 @@
 		558A16262B335E5200E64866 /* Sequiz */ = {
 			isa = PBXGroup;
 			children = (
+				55E7C82E2B387F4000FF2847 /* QuizView */,
+				55E7C82D2B387F2400FF2847 /* HomeView */,
 				558A16272B335E5200E64866 /* AppDelegate.swift */,
 				558A16292B335E5200E64866 /* SceneDelegate.swift */,
-				558A162B2B335E5200E64866 /* ViewController.swift */,
-				551E3AA42B35D02C0044C4EF /* CustomCollectionViewCell.swift */,
 				558A16302B335E5500E64866 /* Assets.xcassets */,
 				558A16322B335E5500E64866 /* LaunchScreen.storyboard */,
 				558A16352B335E5500E64866 /* Info.plist */,
@@ -155,6 +157,23 @@
 				558A164A2B335E5500E64866 /* SequizUITestsLaunchTests.swift */,
 			);
 			path = SequizUITests;
+			sourceTree = "<group>";
+		};
+		55E7C82D2B387F2400FF2847 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				558A162B2B335E5200E64866 /* ViewController.swift */,
+				551E3AA42B35D02C0044C4EF /* CustomCollectionViewCell.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		55E7C82E2B387F4000FF2847 /* QuizView */ = {
+			isa = PBXGroup;
+			children = (
+				55E7C82F2B387F5400FF2847 /* QuizViewController.swift */,
+			);
+			path = QuizView;
 			sourceTree = "<group>";
 		};
 		67366C31FD2AA65CA80E6D5B /* Frameworks */ = {
@@ -371,6 +390,7 @@
 			files = (
 				558A162C2B335E5200E64866 /* ViewController.swift in Sources */,
 				558A16282B335E5200E64866 /* AppDelegate.swift in Sources */,
+				55E7C8302B387F5400FF2847 /* QuizViewController.swift in Sources */,
 				558A162A2B335E5200E64866 /* SceneDelegate.swift in Sources */,
 				551E3AA52B35D02C0044C4EF /* CustomCollectionViewCell.swift in Sources */,
 			);
