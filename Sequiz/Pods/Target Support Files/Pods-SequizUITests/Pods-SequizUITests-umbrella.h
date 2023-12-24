@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Sequiz_SequizUITestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Sequiz_SequizUITestsVersionString[];
+FOUNDATION_EXPORT double Pods_SequizUITestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_SequizUITestsVersionString[];
 

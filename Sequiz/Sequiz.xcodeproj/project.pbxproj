@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		551E3AA52B35D02C0044C4EF /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551E3AA42B35D02C0044C4EF /* CustomCollectionViewCell.swift */; };
 		558A16282B335E5200E64866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A16272B335E5200E64866 /* AppDelegate.swift */; };
 		558A162A2B335E5200E64866 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A16292B335E5200E64866 /* SceneDelegate.swift */; };
 		558A162C2B335E5200E64866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A162B2B335E5200E64866 /* ViewController.swift */; };
@@ -15,9 +16,6 @@
 		558A163F2B335E5500E64866 /* SequizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A163E2B335E5500E64866 /* SequizTests.swift */; };
 		558A16492B335E5500E64866 /* SequizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A16482B335E5500E64866 /* SequizUITests.swift */; };
 		558A164B2B335E5500E64866 /* SequizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A164A2B335E5500E64866 /* SequizUITestsLaunchTests.swift */; };
-		55DFA62D2933CFAD59D70E12 /* Pods_SequizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771AB547E4E507009ECD3207 /* Pods_SequizTests.framework */; };
-		C000D6916808FFD92DF13BB3 /* Pods_Sequiz_SequizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F493454A3E8A92A8166E8354 /* Pods_Sequiz_SequizUITests.framework */; };
-		EA045C1B3422F2E093F5554A /* Pods_Sequiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 081E8D1B0183572BB6E6CDF2 /* Pods_Sequiz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00A8BFED36BABB484E7087FA /* Pods-SequizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SequizTests.release.xcconfig"; path = "Target Support Files/Pods-SequizTests/Pods-SequizTests.release.xcconfig"; sourceTree = "<group>"; };
-		081E8D1B0183572BB6E6CDF2 /* Pods_Sequiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sequiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C627523FE5209717B29BEF6 /* Pods-SequizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SequizTests.debug.xcconfig"; path = "Target Support Files/Pods-SequizTests/Pods-SequizTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4C9B7C52284752CCC022A819 /* Pods-Sequiz-SequizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sequiz-SequizUITests.release.xcconfig"; path = "Target Support Files/Pods-Sequiz-SequizUITests/Pods-Sequiz-SequizUITests.release.xcconfig"; sourceTree = "<group>"; };
+		551E3AA42B35D02C0044C4EF /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		558A16242B335E5200E64866 /* Sequiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sequiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		558A16272B335E5200E64866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		558A16292B335E5200E64866 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,11 +49,6 @@
 		558A16442B335E5500E64866 /* SequizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SequizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		558A16482B335E5500E64866 /* SequizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequizUITests.swift; sourceTree = "<group>"; };
 		558A164A2B335E5500E64866 /* SequizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequizUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		683304D135B4E19D0A4BC000 /* Pods-Sequiz-SequizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sequiz-SequizUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sequiz-SequizUITests/Pods-Sequiz-SequizUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		771AB547E4E507009ECD3207 /* Pods_SequizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SequizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E397C3735F9109B2947DAB0 /* Pods-Sequiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sequiz.release.xcconfig"; path = "Target Support Files/Pods-Sequiz/Pods-Sequiz.release.xcconfig"; sourceTree = "<group>"; };
-		C1F50BD170BBA4913559C576 /* Pods-Sequiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sequiz.debug.xcconfig"; path = "Target Support Files/Pods-Sequiz/Pods-Sequiz.debug.xcconfig"; sourceTree = "<group>"; };
-		F493454A3E8A92A8166E8354 /* Pods_Sequiz_SequizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sequiz_SequizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA045C1B3422F2E093F5554A /* Pods_Sequiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55DFA62D2933CFAD59D70E12 /* Pods_SequizTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C000D6916808FFD92DF13BB3 /* Pods_Sequiz_SequizUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,14 +79,7 @@
 		43327FC742CC97F7C1B8BA4D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C1F50BD170BBA4913559C576 /* Pods-Sequiz.debug.xcconfig */,
-				7E397C3735F9109B2947DAB0 /* Pods-Sequiz.release.xcconfig */,
-				683304D135B4E19D0A4BC000 /* Pods-Sequiz-SequizUITests.debug.xcconfig */,
-				4C9B7C52284752CCC022A819 /* Pods-Sequiz-SequizUITests.release.xcconfig */,
-				3C627523FE5209717B29BEF6 /* Pods-SequizTests.debug.xcconfig */,
-				00A8BFED36BABB484E7087FA /* Pods-SequizTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -111,7 +91,6 @@
 				558A16472B335E5500E64866 /* SequizUITests */,
 				558A16252B335E5200E64866 /* Products */,
 				43327FC742CC97F7C1B8BA4D /* Pods */,
-				856C081746DAC12E3E0337E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +110,7 @@
 				558A16272B335E5200E64866 /* AppDelegate.swift */,
 				558A16292B335E5200E64866 /* SceneDelegate.swift */,
 				558A162B2B335E5200E64866 /* ViewController.swift */,
+				551E3AA42B35D02C0044C4EF /* CustomCollectionViewCell.swift */,
 				558A16302B335E5500E64866 /* Assets.xcassets */,
 				558A16322B335E5500E64866 /* LaunchScreen.storyboard */,
 				558A16352B335E5500E64866 /* Info.plist */,
@@ -155,16 +135,6 @@
 			path = SequizUITests;
 			sourceTree = "<group>";
 		};
-		856C081746DAC12E3E0337E9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				081E8D1B0183572BB6E6CDF2 /* Pods_Sequiz.framework */,
-				F493454A3E8A92A8166E8354 /* Pods_Sequiz_SequizUITests.framework */,
-				771AB547E4E507009ECD3207 /* Pods_SequizTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,11 +142,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 558A164E2B335E5500E64866 /* Build configuration list for PBXNativeTarget "Sequiz" */;
 			buildPhases = (
-				87DC09B1E670A3DB23A7705B /* [CP] Check Pods Manifest.lock */,
 				558A16202B335E5200E64866 /* Sources */,
 				558A16212B335E5200E64866 /* Frameworks */,
 				558A16222B335E5200E64866 /* Resources */,
-				FF8BCFE1C1A0374D88C5CCFA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,7 +159,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 558A16512B335E5500E64866 /* Build configuration list for PBXNativeTarget "SequizTests" */;
 			buildPhases = (
-				C3CD9363BA1EE0928D044DE6 /* [CP] Check Pods Manifest.lock */,
 				558A16362B335E5500E64866 /* Sources */,
 				558A16372B335E5500E64866 /* Frameworks */,
 				558A16382B335E5500E64866 /* Resources */,
@@ -210,11 +177,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 558A16542B335E5500E64866 /* Build configuration list for PBXNativeTarget "SequizUITests" */;
 			buildPhases = (
-				65816945330570071E769EA3 /* [CP] Check Pods Manifest.lock */,
 				558A16402B335E5500E64866 /* Sources */,
 				558A16412B335E5500E64866 /* Frameworks */,
 				558A16422B335E5500E64866 /* Resources */,
-				0F1F0BF9FAEED0EAE0E4E992 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,109 +260,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		0F1F0BF9FAEED0EAE0E4E992 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sequiz-SequizUITests/Pods-Sequiz-SequizUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sequiz-SequizUITests/Pods-Sequiz-SequizUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sequiz-SequizUITests/Pods-Sequiz-SequizUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		65816945330570071E769EA3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Sequiz-SequizUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		87DC09B1E670A3DB23A7705B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Sequiz-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C3CD9363BA1EE0928D044DE6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SequizTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FF8BCFE1C1A0374D88C5CCFA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sequiz/Pods-Sequiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sequiz/Pods-Sequiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sequiz/Pods-Sequiz-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		558A16202B335E5200E64866 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -406,6 +268,7 @@
 				558A162C2B335E5200E64866 /* ViewController.swift in Sources */,
 				558A16282B335E5200E64866 /* AppDelegate.swift in Sources */,
 				558A162A2B335E5200E64866 /* SceneDelegate.swift in Sources */,
+				551E3AA52B35D02C0044C4EF /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,7 +437,6 @@
 		};
 		558A164F2B335E5500E64866 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1F50BD170BBA4913559C576 /* Pods-Sequiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -602,7 +464,6 @@
 		};
 		558A16502B335E5500E64866 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E397C3735F9109B2947DAB0 /* Pods-Sequiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -630,7 +491,6 @@
 		};
 		558A16522B335E5500E64866 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C627523FE5209717B29BEF6 /* Pods-SequizTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -651,7 +511,6 @@
 		};
 		558A16532B335E5500E64866 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00A8BFED36BABB484E7087FA /* Pods-SequizTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -672,7 +531,6 @@
 		};
 		558A16552B335E5500E64866 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 683304D135B4E19D0A4BC000 /* Pods-Sequiz-SequizUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -691,7 +549,6 @@
 		};
 		558A16562B335E5500E64866 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C9B7C52284752CCC022A819 /* Pods-Sequiz-SequizUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

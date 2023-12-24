@@ -1,20 +1,29 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'Sequiz' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
 
-  # Pods for Sequiz
+# PODs instalados
+def install_pods
+  ui_pods
+  
+end
+
+# PODs de UI
+def ui_pods
   pod 'SnapKit'
+end
+
+target 'Sequiz' do
+  install_pods
+end
 
   target 'SequizTests' do
     inherit! :search_paths
     # Pods for testing
+    install_pods
   end
 
   target 'SequizUITests' do
     # Pods for testing
+    install_pods
   end
-
-end
